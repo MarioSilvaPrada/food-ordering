@@ -29,9 +29,9 @@
     "name": {
       "type": "string"
     },
-    "restaurants": {
-      "collection": "restaurant",
-      "via": "dish"
+    "restaurant": {
+      "model": "restaurant",
+      "via": "dishes"
     }
   }
 }

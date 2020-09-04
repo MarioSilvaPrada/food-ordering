@@ -26,9 +26,9 @@
       "plugin": "upload",
       "required": false
     },
-    "dish": {
-      "via": "restaurants",
-      "model": "dish"
+    "dishes": {
+      "via": "restaurant",
+      "collection": "dish"
     }
   }
 }
